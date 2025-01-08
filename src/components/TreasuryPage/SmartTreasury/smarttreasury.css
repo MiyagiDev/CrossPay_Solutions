@@ -1,0 +1,171 @@
+.container__smarttreasury--main {    /* Contenedor principal del componente */
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: var(--bg-light);
+    border-radius: 5rem;
+    overflow: hidden;
+    padding: 6rem;
+    margin-top: -50px;
+    z-index: 2;
+}
+
+/*********************************************************/
+
+/********** Contenedor de la sección Alianza **********/
+.container__smarttreasury--section {
+    width: 100%;
+}
+
+.container__smarttreasury--mainHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.container__smarttreasury--mainHeader h2 {/* Título de la sección principal */
+    width: fit-content;
+    color: var(--title);
+    font-size: var(--text-h2);
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-align: center;
+    line-height: 1;
+    margin: 2rem 0;
+}
+
+.container__smarttreasury--mainHeader h3 {/* Título de la sección principal */
+    width: fit-content;
+    color: var(--title);
+    font-size: var(--text-h3);
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    text-align: center;
+    line-height: 1;
+}
+
+.container__smarttreasury--mainHeader p { /* Párrafo de la sección principal */
+    width: 90%;
+    color: var(--paragraph-1);
+    font-size: var(--text-paragraph-2);
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    margin: 2rem 0 4rem  0;
+}
+
+.container__smarttreasury--bPoints {    /* Estilos de la columna del texto */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.4rem;
+}
+
+.container__smarttreasury {          
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.container__smarttreasury--features {/* Contenedor del bullet Point */
+    width: 100%;
+    border-color: var(--line-features);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+    transition: all 0.25s ease-in-out;
+}
+
+.container__smarttreasury--features p {/* Párrafo del bullet Point */
+    font-size: calc(var(--text-paragraph-2)*0.8);
+    line-height: 1.5;
+    margin-top: 0.5rem;
+}
+
+.smarttreasury--features-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.smarttreasury--features-header h3 {
+    width: 70%;
+}
+
+.smarttreasury--features-header img {
+    width: 60px;
+    margin-bottom: 1rem;
+}
+/*********************************************************/
+
+/******** Contenedor de la sección Call to Action ********/
+.container__smarttreasury--cta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3rem;
+    background-color: var(--bg-body);
+    padding: 2rem 3rem;
+    margin-top: 5rem;
+}
+
+.container__smarttreasury--cta h3 {
+    align-self: center;
+    color: var(--white100);
+    font-size: calc(var(--text-h2)*0.6);
+}
+
+.highlight-6 {
+    color: var(--accent-2);
+}
+
+.container__smarttreasury--cta-button {
+    width: fit-content;
+    color: var(--white100);
+    background: linear-gradient(315deg, #3c36ff,#fe37a7);
+    border-radius: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem 1.8rem;
+    transition: all 0.3s ease-in-out; 
+}
+
+.container__smarttreasury--cta-button:hover {
+    transform: scale(1.025);
+}
+
+.container__smarttreasury--cta-button:hover .arrow {
+    color: var(--accent-3);
+    transform: rotate(-45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.container__smarttreasury--cta-button h4 {
+    width: fit-content;
+    font-size: var(--text-button-cta2);
+    font-weight: 600;
+}
+
+.container__smarttreasury--cta-button .arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:var(--white100);
+    color: var(--accent);
+    transform: rotate(315deg);
+    border-radius:50px;
+    padding: 0.35rem;
+    margin-left: 1.125rem;
+    transition: all 0.3s ease-in-out;
+}
+/*******************************************************/

@@ -1,0 +1,34 @@
+.translation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 70px;
+}
+
+.translation-container-button-translate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(var(--font-size-h1)*0.65);
+    background-color: transparent;
+    color: var(--icon);
+    cursor: pointer;
+    border: none;
+}
+
+.language {
+    width: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.language:hover {
+    width: 1.6rem;
+    color: var(--accent-3);
+}
+
+@media (width < 650px) {
+    .translation-container {
+        margin-left: 0;
+    }
+}

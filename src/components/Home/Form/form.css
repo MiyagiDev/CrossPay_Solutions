@@ -1,0 +1,101 @@
+/* Estilos generales del formulario */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: auto;
+  margin-top: 0.5rem;
+}
+
+/* Campos de entrada (inputs y textarea) */
+.input-group {
+  margin-bottom: 1rem;
+}
+
+/* Campos del formulario */
+input {
+  width: 100%;
+  font-size: 1rem;
+  background-color: var(--bg-menu);
+  box-shadow: 0 0 15px 0 var(--shadow);
+  color: var(--white100);
+  border: 1px solid var(--line);
+  border-radius: 50px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  padding: 0.8rem 1.5rem;
+}
+
+/* Estilo del placeholder */
+input::placeholder {
+  color: var(--paragraph-1);
+}
+
+/* Mensajes de validación */
+.error-message {
+  color: var(--error);
+  font-size: 0.9rem;
+  margin: 0.2rem 0 0rem 1.7rem;
+}
+
+/* Estilo de Términos y Condiciones */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+/* Texto de Términos y Condiciones*/
+label {
+  display: block;
+  color: var(--paragraph-1);
+  margin-bottom: 0.5rem;
+}
+
+.checkbox-acceptance-col1 {
+  display: inline;
+  width: 5%;
+  float: left;
+}
+
+.checkbox-acceptance-col2 {
+  display: inline;
+  width: 92%;
+  float: left;
+  font-size: 0.75rem;
+}
+
+/* Botón de envío */
+.submit-button {
+  width: fit-content;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--white100);
+  background: linear-gradient(315deg, #3c36ff,#fe37a7);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 0.8rem 3rem;
+}
+
+.submit-button:hover {
+  font-size: 0.95rem;
+}
+
+/* Enlaces de términos y privacidad */
+a {
+  color: var(--paragraph-1);
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: var(--accent-3);
+}
+
+/* Estilos cuando el campo está activo */
+input:focus {
+  background-color: var(--bg-field);
+}

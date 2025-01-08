@@ -1,0 +1,53 @@
+:root {
+    
+    /* Font Size */
+    --text-button-1: clamp(1rem, 1rem, 2rem);
+    --text-button-cta: clamp(1rem, 1.7rem, 2rem);
+    --text-button-cta2: clamp(0.8rem, 1.3rem, 1.8rem);
+    --text-h1: clamp(1.8rem, 1.5rem + 4vw, 10rem);
+    --text-h2: clamp(1.8rem, 1rem + 2vw, 10rem);
+    --text-h3: clamp(1.8rem, 0.8rem + 1vw, 10rem);
+    --text-paragraph-1: clamp(1rem, 1.4rem, 2rem);
+    --text-paragraph-2: clamp(1rem, 1.2rem, 2rem);
+
+    --font-nav: clamp(1rem, 1rem, 3.125rem);
+    --font-h2: clamp(1.5rem, 0.7rem + 2.5vw, 7rem);
+    --font-h3: clamp(2rem, 0.5rem + 2vw, 3.125rem);
+    --font-h4: clamp(1rem, 0.5rem + 1vw, 2rem);
+    --font-p: clamp(1.1rem, 0.8vw + 0.5rem, 2.2rem);
+    --font-footer: clamp(1rem, 0.8vw + 0.3rem, 1.5rem);
+    --font-copy: clamp(0.6rem, 0.7vw + 0.25rem, 1rem);
+    --font-span: clamp(5rem, 8vw, 20vw);
+
+    /* Color Style */
+    --alpha: #ffffff00;             /* transparente */
+    --bg-body: #0F0F0F;             /* fondo de la web */
+    --bg-menu: #232323;             /* fondo del menu principal */
+    --bg-section: #171717;          /* fondo de secciones */
+    --bg-field: #333333;            /* fondo de campos de formulario */
+    --bg-light: #EFEFEF;            /* fondo para secciones claras */
+    --white100: #ffffff;            /* blanco puro */
+    --text: #ffffffcc;              /* textos generales */
+    --text-button: #000000;         /* texto de los botones */
+    --text-nav: #737373;            /* texto para el menú de navegación */
+    --accent: #3C36FF;              /* acento 1 de la paleta de color */
+    --accent-2: #7B3AEC;            /* acento 2 de la paleta de color */
+    --accent-3: #FE37A7;            /* acento 3 de la paleta de color */
+    --error:  #FE37A7;              /* texto de los mensajes de error */
+    --icon: #424242;                /* íconos fondo oscuro*/
+    --icon-h: #FE37A7;              /* íconos:hover fondo oscuro */
+    --title: #151515;               /* títulos de sección fondo blanco */
+    --paragraph-1: #5e5e5e;         /* párrafo sobre fondo oscuro */
+    --icon-cta: #FFFFFFCC;          /* ícono de los botones cta */
+    --line: #00000010;              /* líneas separadoras */
+    --line-features: #00000027;     /* líneas de cajas contenedoras */
+    --shadow: #00000027;            /* sombra de los bullet points */
+
+}
+    /*
+    --accent: #CBFB45;              /* acento para fondo oscuro 
+    --accent-2: #a9cc2b;            /* acento para fondo claro 
+    --error:  #a9cc2bbe;            /* texto de los mensajes de error 
+    --icon: #424242;                /* íconos fondo oscuro
+    --icon-h: #CBFB45;              /* íconos:hover fondo oscuro 
+    */

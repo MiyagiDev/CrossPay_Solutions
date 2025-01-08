@@ -1,0 +1,6 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    user-select: none;
+    background-color: var(--bg-body);
+    padding: 3.5rem 4rem 1rem 4rem;
+}

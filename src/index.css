@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilos del scroll bar */
+::-webkit-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-menu) var(--bg-body);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-menu) var(--bg-body);
+}

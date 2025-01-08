@@ -1,0 +1,125 @@
+/* Contenedor principal */
+.footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: var(--bg-body);
+    gap: 2rem;
+    padding: 8rem 9rem 0 9rem;
+
+}
+
+/* Logo section */
+.footer--logo {
+    display: flex;
+    width: 100%;
+    justify-content:left;
+    align-items: start;
+}
+
+.footer--logo a {
+    width: 20rem;
+    transition: all 0.3s ease-in-out;
+}
+.footer--logo a:hover {
+    transform: scale(1.025);
+}
+
+/* Links section */
+.footer--links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.footer__links--col1 {
+    width: 55%;
+    text-align: left;
+    color: var(--paragraph-1);
+    font-size: calc(var(--text-paragraph-1)*0.8);
+    line-height: 1.5;
+    font-weight: 300;
+    margin-right: 5rem;
+}
+.footer__links--col2, .footer__links--col3 {
+    width: 27.5%;
+    text-align: left;
+}
+.footer__links--col2 h4, .footer__links--col3 h4 {
+    color: var(--text);
+    font-size: var(--text-paragraph-1);
+    margin-bottom: 0.5rem;
+}
+.footer__links--col2 a, .footer__links--col3 a {
+    color: var(--paragraph-1);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    display: block;
+    transition: color 0.3s ease;
+}
+.footer__links--col2 a:hover, .footer__links--col3 a:hover {
+    color: var(--accent-3);
+}
+
+/* Social media and copyright section */
+.footer--rrssCopy {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.footer__rrss { /* Columna 1 redes sociales */
+    width: 50%;
+}
+
+.footer__rrss a svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+}
+
+.footer__rrss a {
+    color: var(--accent-2);
+    transition: color 0.3s ease-in-out;
+}
+
+.footer__rrss a:hover {
+    color: var(--accent-3);
+}
+
+.footer__copy { /* Columna 2 copyright */
+    padding-left: 2.5rem;
+    align-self:center;
+}
+
+.footer__copy p{
+    font-size: var(--font-copy);
+    color:var(--paragraph-1);
+}
+
+.footer__copy a {
+    color: var(--paragraph-1);
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer__copy a:hover {
+    color: var(--accent-3);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer--links, .footer--rrssCopy {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__links--col1, .footer__links--col2, .footer__links--col3 {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__rrss, .footer__copy {
+        text-align: center;
+    }
+}

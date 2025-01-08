@@ -1,0 +1,44 @@
+.container__privacy--main {    /* Contenedor principal del componente */
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: var(--bg-light);
+    border-radius: 5rem;
+    overflow: hidden;
+    padding: 6rem;
+    margin-top: -50px;
+    z-index: 2;
+}
+/*********************************************************/
+
+/********** Contenedor de la sección términos y condiciones **********/
+.container__privacy--section {
+    width: 100%;
+}
+
+.container__privacy--mainHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.container__privacy--mainHeader h3 {/* Título de la sección principal */
+    width: fit-content;
+    color: var(--title);
+    font-size: var(--text-h3);
+    font-weight: 600;
+    line-height: 0.5;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.container__privacy--mainHeader p { /* Párrafo de la sección principal */
+    width: 90%;
+    color: var(--paragraph-1);
+    font-size: var(--text-paragraph-2);
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+}
+/*******************************************************/

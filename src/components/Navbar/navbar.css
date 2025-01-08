@@ -1,0 +1,92 @@
+.Navbar-container {
+    width: 100%;
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--alpha);
+    top: 0;
+    left: 0;
+    margin-top: 1.875;
+    padding: 0.625rem 3.75rem;
+    z-index: 999;
+}
+
+.Navbar__column-1 {
+    width: 20%;
+    height: auto;
+}
+
+.Navbar__column-1--logo {
+    width: 100%;
+    padding: 0 0.5rem;  
+}
+
+.Navbar__column-1--img {
+    width: 100%;
+    max-width: 13rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.Navbar__column-1--img:hover {
+    transform: scale(1.05);
+}
+
+.Navbar__column-2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.Navbar__column-2-container ul > li {
+    width: fit-content;
+}
+
+.Navbar__column-2-container ul {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 1.75rem;
+    background-color: var(--bg-menu);
+    box-shadow: 0px 0px 25px -10px var(--bg-body);
+    border-radius: 16rem;
+    list-style: none;
+    padding: 1.2rem 3rem;
+}
+
+.Navbar__column-2--menu-link {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    color: var(--text-nav);
+    text-align: center;
+    font-size: var(--font-nav);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Navbar__column-2--menu-link:hover {
+    color: var(--accent-3);
+    transform: scale(1.05);
+}
+
+.Navbar__column-2--menu-link.active {
+    color: var(--accent-3); /* Cambia a tu color preferido */
+    text-decoration: none; /* Opcional: subrayado */
+    transform: scale(1.05); /* Opcional: animación */
+}
+
+.Navbar__column-3 {
+    width: 20%;
+}
+
+.Navbar__column-3--languaje {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
