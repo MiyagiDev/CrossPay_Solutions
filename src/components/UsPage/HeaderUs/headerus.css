@@ -27,7 +27,7 @@
     position: relative;             /* Asegura que el menú esté sobre la imagen */
 }
 
-.container__headerus--header{
+.container__headerus--header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,4 +64,20 @@
     line-height: 1.6;
     font-weight: 300;
     margin-top: 3rem;
+}
+
+@media (max-width: 540px) {
+    .container__headerus--main {
+        height: 53rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+    .container__headerus--header {
+        margin: 4rem 0 0 0;
+    }
+    .container__headerus--text P {    /* Párrafo del header */
+        width: 100%;
+        font-size: var(--text-paragraph-1);
+        line-height: 1.6;
+    }
 }
