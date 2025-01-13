@@ -27,7 +27,7 @@
     position: relative;             /* Asegura que el menú esté sobre la imagen */
 }
 
-.container__headerterms--header{
+.container__headerterms--header {
     display: flex;
     flex-direction: column;
     justify-content: center;
