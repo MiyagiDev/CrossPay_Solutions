@@ -27,8 +27,16 @@
     color: var(--accent-3);
 }
 
-@media (width < 650px) {
+@media (max-width: 1024px) {
     .translation-container {
+        width: auto;
         margin-left: 0;
+    }
+    .translation-container-button-translate {
+        color: var(--accent-3);
+    }
+    .language:hover {
+        width: 1.6rem;
+        color: var(--white100);
     }
 }
