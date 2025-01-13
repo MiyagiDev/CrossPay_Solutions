@@ -261,3 +261,70 @@
     text-align: left;
 }
 /**********************************************************/
+
+@media (max-width: 540px) {
+    .container__servicesfx--main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 2rem;
+        padding: 2rem 0.75rem;
+    }
+    .container__servicesfx--heade r{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .container__servicesfx{
+        width: 90%;
+        flex-direction: column;
+    }
+    .container__exporters--columns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container__exporters--col1 {
+        width: 90%;
+        padding-right : 0px;
+        margin-bottom: 2rem;
+    }
+    .container__exporters {
+        width: 100%;
+    }
+    .container__exporters--col2{
+        width: 90%;
+    }
+    .container__exporters--header{
+        align-items: center;
+    }
+    .container__exporters--header h3{
+        text-align: center;
+    }
+    .container__exporters--header p{
+        text-align: center;
+    }
+    .container__servicesfx--cta {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1.5rem;
+        padding: 1rem 1.5rem;
+        margin-top: 2.5rem;
+    }
+    .container__servicesfx--cta h3{
+        text-align: center;
+        font-size: calc(var(--text-h2)*0.8);
+        padding-top: 0;
+        padding-bottom:1.5rem;
+    }
+    .container__servicesfx--cta-button h4 {
+        width: fit-content;
+        font-size: calc(var(--text-button-cta2)*0.8);
+        font-weight: 600;
+    }
+    .container__servicesfx--cta-button .arrow {
+        width: 2rem;
+        height: 2rem;
+    }
+}

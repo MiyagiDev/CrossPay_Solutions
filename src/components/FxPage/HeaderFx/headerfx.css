@@ -65,3 +65,21 @@
     font-weight: 300;
     margin-top: 2rem;
 }
+
+@media (max-width: 540px) {
+    .container__headerfx--main {
+        min-height: 43rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+    .container__headerfx--header{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .container__headerfx--text P {    /* Párrafo del header */
+        width: 90%;
+        font-size: calc(var(--text-paragraph-1)*0.9);
+        margin-top: 3rem;
+    }
+}

@@ -66,3 +66,16 @@
     font-weight: 300;
     margin-top: 1.5rem;
 }
+
+@media (max-width: 540px) {
+    .container__headercompliance--main {
+        min-height: 43rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+    .container__headercompliance--header{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+}
