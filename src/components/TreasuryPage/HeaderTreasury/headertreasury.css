@@ -36,10 +36,10 @@
 }
 
 .container__headertreasury--text {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     margin: 1rem;
 }
 
@@ -63,4 +63,19 @@
     line-height: 1.6;
     font-weight: 300;
     margin-top: 1rem;
+}
+
+@media (max-width: 540px) {
+    .container__headertreasury--main {
+        height: 35rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+    .container__headertreasury--header{
+        margin: 4rem 1rem;
+    }
+    .container__headertreasury--text P {    /* Párrafo del header */
+        min-width: 100%;
+        font-size: calc(var(--text-paragraph-1)*0.8);
+    }
 }

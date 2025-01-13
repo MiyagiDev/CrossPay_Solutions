@@ -169,3 +169,42 @@
     transition: all 0.3s ease-in-out;
 }
 /*******************************************************/
+
+@media (max-width: 540px) {
+    .container__interpayments--main {    /* Contenedor principal del componente */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2rem;
+        padding: 2rem 0;
+    }
+    .container__interpayments{
+        width:90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container__interpayments--cta {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1.5rem;
+        padding: 1rem 1.5rem;
+        margin-top: 2.5rem;
+    }
+    .container__interpayments--cta h3{
+        text-align: center;
+        font-size: calc(var(--text-h2)*0.8);
+        padding-top: 0;
+        padding-bottom:1.5rem;
+    }
+    .container__interpayments--cta-button h4 {
+        width: fit-content;
+        font-size: calc(var(--text-button-cta2)*0.8);
+        font-weight: 600;
+    }
+    .container__interpayments--cta-button .arrow {
+        width: 2rem;
+        height: 2rem;
+    }
+}

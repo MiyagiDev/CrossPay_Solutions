@@ -64,3 +64,14 @@
     font-weight: 300;
     margin-top: 1rem;
 }
+
+@media (max-width: 540px) {
+    .container__headerpayments--main {
+        min-height: 43rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+    .container__headerpayments--header {
+        margin: 4rem 0 0 0;
+    }
+}
