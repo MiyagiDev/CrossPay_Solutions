@@ -78,3 +78,32 @@
     color: var(--text);
     font-size: var(--text-h2);
 }
+
+@media (max-width: 540px) {
+    .container__contact--main {
+        border-bottom-left-radius: 2.5rem;
+        border-bottom-right-radius: 2.5rem;
+    }
+    .container__contact {
+        margin-top: 12rem;
+        margin-bottom: 3.5rem;
+        flex-direction: column;
+    }
+    .container__contact--col1 {
+        width: 100%;
+        align-items: center;
+        align-self: center;
+        padding: 0px;
+    }
+    .container__contact--col1 h2 {   /* Título principal de la web */
+        text-align: center;
+    }
+    .container__contact--col1 P {    /* Párrafo del header */
+        text-align: center;
+    }
+    .container__contact--col2 {
+        width: 100%;
+        padding: 0px;
+        margin-top: 2rem;
+    }
+}
